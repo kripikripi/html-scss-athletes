@@ -61,6 +61,15 @@
                 font-weight: 400;
                 font-size: 18px;
                 color: #000000;
+                .sport::after {
+                    content: ",";
+                }
+                .pay::before {
+                    content: "$";
+                }
+                .pay::after {
+                    content: "M";
+                }
             }
         }
         &:hover {
