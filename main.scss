@@ -25,12 +25,12 @@
             background: transparent;
             z-index: -1;
         }
-        .photo {
+        &__photo {
             position: relative;
             display: flex;
             justify-content: center;
             margin-bottom: 8px;
-            .rank {
+            &__rank {
                 width: 32px;
                 height: 32px;
                 text-align: center;
@@ -56,18 +56,18 @@
             font-weight: 700;
             font-size: 20px;
             text-align: center;
-            .extra {
+            &__extra {
                 display: none;
                 font-weight: 400;
                 font-size: 18px;
                 color: #000000;
-                .sport::after {
+                &__sport::after {
                     content: ",";
                 }
-                .pay::before {
+                &__pay::before {
                     content: "$";
                 }
-                .pay::after {
+                &__pay::after {
                     content: "M";
                 }
             }
@@ -79,7 +79,7 @@
             }
             z-index: 1;
             .details {
-                .extra {
+                &__extra {
                     z-index: 1;
                     position: absolute;
                     top: 100%;
